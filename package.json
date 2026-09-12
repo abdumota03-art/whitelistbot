@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-whitelist-bot",
+  "version": "1.0.0",
+  "description": "Discord Minecraft whitelist bot using RCON, designed for Railway.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "rcon-client": "^4.2.5",
+    "better-sqlite3": "^12.4.1"
+  }
+}
